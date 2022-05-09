@@ -16,8 +16,8 @@ body {
 }
 :root {
   --thm-font: "Poppins", sans-serif;
-  --thm-base: #00dfb8;
-  --thm-color: #4550f8;
+  --thm-base: #53cb32;
+  --thm-color: #322c65;
   --thm-black: #252c4b;
   --thm-white: #ffffff;
   --thm-ase: #afb2bf;
@@ -522,8 +522,8 @@ textarea {
 .navbar-navs.navbar-collaps .menu-nav {
   color: var(--thm-white);
   text-transform: capitalize;
-  font-weight: 500;
-  font-size: 14px;
+  font-weight: 700;
+  font-size: 16px;
   letter-spacing: 0.7px;
   font-family: var(--thm-font);
 }
