@@ -2619,3 +2619,92 @@ textarea {
 .avatar-twitter {
   margin: auto;
 }
+
+.about-section {
+  padding-top: 3.5rem;
+  position: relative;
+  background: linear-gradient(0deg, #f3f5fc, #f3f5fc),
+    linear-gradient(0deg, #10e1ae, #10e1ae), #3a3ed0;
+}
+
+.about-section .pattern-img.left {
+  left: 0;
+}
+
+.pattern-img img {
+  max-width: 200px;
+  max-height: 250px;
+}
+
+/* @media (max-width: 1024px) {
+  .about-section .pattern-img {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  z-index: 10;
+  }
+} */
+
+.about-content {
+  max-width: 710px;
+  margin: auto;
+  position: relative;
+  text-align: center;
+  z-index: 50;
+}
+
+.tit-section {
+  font-size: 48px;
+  line-height: 48px;
+  margin-bottom: 2rem;
+}
+
+.tit-heading,
+.tit-section {
+  font-family: "Bebas Neue";
+  color: #23253c;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.txt-base {
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.about-line {
+  margin-top: 2.5rem;
+}
+.about-line img {
+  margin: auto;
+}
+
+.roadmap {
+  --tw-bg-opacity: 1;
+  background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+  position: relative;
+  border: 2px solid #cdcdcf;
+  border-radius: 12px;
+  width: 18rem;
+}
+
+.btn-regular {
+  height: 54px;
+  width: 147px;
+  font-size: 32px;
+  line-height: 60px;
+}
+
+.btn-links {
+  display: inline-block;
+  text-align: center;
+  background: linear-gradient(90deg, #53cb32, #322c65);
+  border-radius: 14px;
+  color: #fff;
+  line-height: 56px;
+  transition: all 0.3s ease;
+  font-family: "Bebas Neue";
+  margin-top: -50px !important;
+  margin-left: 25%;
+  margin-bottom: 20px;
+}

@@ -1,90 +1,342 @@
- <!-- START HOME -->
-      <section
-        id="home"
-        class="atf-hero-area atf-cover-bg atf-align-items-details atf-width-area"
-      >
-        <div class="atf-round-area d-none d-lg-block"></div>
-        <div class="container">
-          <div class="row atf-content-details align-items-center">
-            <!--LEFT COL-->
-            <div
-              class="col-md-7 col-lg-7 col-12 atf-single-details text-lg-left"
-            >
-              <h2
-                class="mb-0 d-block d-lg-block text-center text-md-left"
-                i18n="home-title"
+<!-- START HOME -->
+<section
+  id="home"
+  class="atf-hero-area atf-cover-bg atf-align-items-details atf-width-area"
+>
+  <div class="atf-round-area d-none d-lg-block"></div>
+  <div class="container">
+    <div class="row atf-content-details align-items-center mt-4">
+      <!--LEFT COL-->
+      <div class="col-md-7 col-lg-7 col-12 atf-single-details text-lg-left">
+        <h2
+          class="mb-0 d-block d-lg-block text-center text-md-left"
+          i18n="home-title"
+        >
+          World's First Move-To-Earn App with Virtual Doge
+        </h2>
+        <p class="mr-lg-5 text-center text-md-left" i18n="home-content">
+          Exercise
+          <i class="fa-solid fa-arrow-right"></i>
+          Socialize
+          <i class="fa-solid fa-arrow-right"></i>
+          Play
+          <i class="fa-solid fa-arrow-right"></i>
+          Earn with your virtual
+          <em>Doge</em>
+        </p>
+        <div class="dns"><p>
+            DNS contract:
+            <span class="text-bold mr-1" style="font-size: 13px;">0x90.......h90
+              <span
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                style="cursor: pointer;"
               >
-                World's First Move-To-Earn App with Virtual Doge
-              </h2>
-              <p class="mr-lg-5 text-center text-md-left" i18n="home-content">
-                Exercise <i class="fa-solid fa-arrow-right"></i> Socialize <i class="fa-solid fa-arrow-right"></i> Play <i class="fa-solid fa-arrow-right"></i> Earn
-              </p>
-              <!-- Main-btn -->
-              <div class="atf-one__btn-wrap row mx-auto">
+                Copy
+              </span></span></p></div>
+        <!-- Main-btn -->
+        <div class="atf-one__btn-wrap row mx-auto">
 
-                <a
-                  href="/whitePaper"
-                  class="atf-one__btn home-btn ml-3"
-                  target="_blank"
-                >
-                  <b i18n="whitepaper">Whitepaper</b>
-                </a>
+          <a
+            href="/whitePaper"
+            class="atf-one__btn home-btn ml-3"
+            target="_blank"
+          >
+            <b i18n="whitepaper">Whitepaper</b>
+          </a>
 
-                <a
-                  href="https://app.movingon.finance/"
-                  class="atf-one__btn home-btn ml-3"
-                  target="_blank"
-                >
-                  <b>Download App</b>
-                </a>
-              </div>
-              <div class="atf-one__btn-wrap mt-3">
-                <h3 class="text-light">Audited By</h3>
-              </div>
-              <div class="atf-one__btn-wrap row mx-auto">
-                <div class="audit-btn">
-                  <a
-                    href="https://github.com/solidproof/smart-contract-audits/blob/main/SmartContract_Audit_Solidproof_DefiConnect.pdf"
-                    target="_blank"
-                    ><img
-                      src="assets/img/solidproof.png"
-                      alt=""
-                      class="audit"
-                  /></a>
-                </div>
-                <div class="audit-btn">
-                  <a
-                    href="https://www.certik.com/projects/defi-connect"
-                    target="_blank"
-                    ><img
-                      src="assets/img/certik.png"
-                      alt=""
-                      class="audit"
-                  /></a>
-                </div>
-              </div>
-            </div>
-            <!--- END COL -->
-
-            <!--RIGHT COL-->
-            <div
-              class="col-md-7 col-lg-5 col-12 atf_home_img atf-banner-img-one text-center"
-            >
-              <div
-                class="atf-img-inner atf-banner-img-inner wow fadeInRight"
-                data-wow-duration="2s"
-                data-wow-delay="0.4s"
-                data-wow-offset="0"
-              >
-                <div class="home-image-box">
-                  <img src="assets/img/home/bg.png" alt="App" class="card-s" />
-                </div>
-              </div>
-            </div>
-            <!--- END COL -->
-          </div>
-          <!--- END ROW -->
+          <a
+            href="https://app.movingon.finance/"
+            class="atf-one__btn home-btn ml-3"
+            target="_blank"
+          >
+            <b>Download App</b>
+          </a>
         </div>
-        <!--- END CONTAINER -->
-      </section>
+        <div class="atf-footer-social-icon mt-3">
+          <a href="#" class="icon" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#" class="icon" target="_blank">
+            <i class="fab fa-discord"></i>
+          </a>
+          <a href="#" class="icon" target="_blank">
+            <i class="fab fa-youtube"></i>
+          </a>
+        </div>
+        {{! <div class="atf-one__btn-wrap mt-3">
+          <h3 class="text-light">Audited By</h3>
+        </div>
+        <div class="atf-one__btn-wrap row mx-auto">
+          <div class="audit-btn">
+            <a
+              href="https://github.com/solidproof/smart-contract-audits/blob/main/SmartContract_Audit_Solidproof_DefiConnect.pdf"
+              target="_blank"
+            ><img src="assets/img/solidproof.png" alt="" class="audit" /></a>
+          </div>
+          <div class="audit-btn">
+            <a
+              href="https://www.certik.com/projects/defi-connect"
+              target="_blank"
+            ><img src="assets/img/certik.png" alt="" class="audit" /></a>
+          </div>
+        </div> }}
+
+      </div>
+      <!----->
+
+      <!--RIGHT COL-->
+      <div
+        class="col-md-7 col-lg-5 col-12 atf_home_img atf-banner-img-one text-center"
+      >
+        <div
+          class="atf-img-inner atf-banner-img-inner wow fadeInRight"
+          data-wow-duration="2s"
+          data-wow-delay="0.4s"
+          data-wow-offset="0"
+        >
+          <div class="home-image-box">
+            <img src="assets/img/home/bg.png" alt="App" class="card-s" />
+          </div>
+        </div>
+      </div>
+      <!----->
+    </div>
+    <!----->
+  </div>
+  <!---AINER -->
+</section>
 <!-- END HOME -->
+
+<!-- START ABOUT AREA  -->
+<section id="mobile" class="atf-about-area atf-section-padding atf-shape">
+  <img class="atf-shape-one" src="assets/img/shape/shape1.png" alt="" />
+  <div class="container">
+    <div class="row clearfix">
+      <div class="col-xl-6 col-lg-6 col-12">
+        <div
+          class="atf-about-content-area pl-lg-3 wow fadeInRight"
+          data-wow-duration="1s"
+          data-wow-delay="0.2s"
+          data-wow-offset="0"
+        >
+          <div class="atf-section-title">
+            <h2>Best Fitness & Crypto Earning App</h2>
+            <h6>Fitness meets Crypto!!!</h6>
+            <ul class="atf-about-single-content mt-3">
+              <li>Easy to use and suitable for everyone</li>
+              <li>Walking, Running, Playing to earn</li>
+              <li>Improve health and lifestyle</li>
+              <li>Connect with everyone in the world</li>
+            </ul>
+          </div>
+          <!-- About-btn -->
+          <div class="atf-about-btn mt-5">
+            <div class="atf-one__btn-wrap">
+              <a href="#none" class="atf-one__btn ml-3">
+                <i class="fab fa-apple"></i><span>Get in</span><b>Apple Store</b>
+              </a>
+
+              <a href="#none" class="atf-one__btn">
+                <i class="fa fa-play"></i><span>Get on</span><b>Google Play</b>
+              </a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <!----->
+
+      <div class="col-xl-6 col-lg-6 col-12">
+        <div
+          class="atf-single-about-img text-center my-auto wow fadeInRight"
+          data-wow-duration="1s"
+          data-wow-delay="0.3s"
+          data-wow-offset="0"
+        >
+          <div class="atf-about-image">
+            <img src="assets/img/home/running.png" alt="about" class="card-s" />
+          </div>
+        </div>
+      </div>
+      <!----->
+    </div>
+    <!----->
+  </div>
+  <!---ANIAR -->
+</section>
+<!-- END ABOUT AREA  -->
+
+<!-- START ACTIVITIES -->
+<section id="activities" class="atf-section-padding">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-xl-6 col-lg-6">
+        <div
+          class="atf-section-title text-center wow fadeInUp"
+          data-wow-duration="1s"
+          data-wow-delay="0.2s"
+          data-wow-offset="0"
+        >
+          <h2 class="" i18n="activities-to-earn">Different Ways to Earn</h2>
+        </div>
+      </div>
+      <!---COL -->
+    </div>
+    <!---ROW -->
+
+    <div class="row clearfix">
+      <div class="col-lg-4 col-md-4 col-12 atf-main-service text-center">
+        <div
+          class="atf-service-content wow fadeInUp"
+          data-wow-duration="2s"
+          data-wow-delay="0.4s"
+          data-wow-offset="0"
+        >
+          <div class="atf-single-service">
+            <div class="atf-service-number">01</div>
+            <div
+              class="atf-service-icon text-center d-flex justify-content-center align-items-center"
+            >
+              <img
+                src="assets/img/activities/walking.png"
+                class="atf-activities-img"
+              />
+            </div>
+            <div class="atf-service-text">
+              <h3 i18n="activities-walking">Walking</h3>
+              <p i18n="activities-walking-content">
+                Earn cryptocurrency dailly by walking. Own the right walking
+                shoes and your personality.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="atf-service-content atf-main-service wow fadeInUp"
+          data-wow-duration="3s"
+          data-wow-delay="0.5s"
+          data-wow-offset="0"
+        >
+          <div class="atf-single-service">
+            <div class="atf-service-number">02</div>
+            <div
+              class="atf-service-icon text-center d-flex justify-content-center align-items-center"
+            >
+              <img
+                src="assets/img/activities/running.png"
+                class="atf-activities-img"
+              />
+            </div>
+            <div class="atf-service-text">
+              <h3 i18n="activities-driving">Rest & Earn</h3>
+              <p i18n="activities-driving-content">
+                Users will be able to earn $DSA even if the DogeStep App is not actively used by entering background feeding mode. This mode requires users to have a Doge & a Water Bottle in the inventory.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!---COL -->
+
+      <div class="col-lg-4 col-md-4 col-12 text-center">
+        <div
+          class="atf-service-single-img text-center my-auto mx-auto wow fadeInUp"
+          data-wow-duration="1s"
+          data-wow-delay="0.3s"
+          data-wow-offset="0"
+        >
+          <div class="atf-service-image">
+            <img
+              src="assets/img/activities/app.png"
+              alt="about"
+              class="card-s"
+            />
+          </div>
+        </div>
+      </div>
+      <!---COL -->
+
+      <div class="col-lg-4 col-md-4 col-12 atf-main-service text-center">
+        <div
+          class="atf-service-content wow fadeInUp"
+          data-wow-duration="1s"
+          data-wow-delay="0.3s"
+          data-wow-offset="0"
+        >
+          <div class="atf-single-service">
+            <div class="atf-service-number">03</div>
+            <div
+              class="atf-service-icon text-center d-flex justify-content-center align-items-center"
+            >
+              <img
+                src="assets/img/activities/running.png"
+                class="atf-activities-img"
+              />
+            </div>
+            <div class="atf-service-text">
+              <h3 i18n="activities-running">Running</h3>
+              <p i18n="activities-running-content">
+                Advanced workouts burn calories calculated based on your height
+                and weight.The mechanics of making money using professional
+                running shoes offer different experiences.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="atf-service-content atf-main-service text-center wow fadeInUp"
+          data-wow-duration="1s"
+          data-wow-delay="0.3s"
+          data-wow-offset="0"
+        >
+          <div class="atf-single-service">
+            <div class="atf-service-number">04</div>
+            <div
+              class="atf-service-icon text-center d-flex justify-content-center align-items-center"
+            >
+              <img
+                src="assets/img/activities/walking.png"
+                class="atf-activities-img"
+              />
+            </div>
+            <div class="atf-service-text">
+              <h3 i18n="activities-running">Team Up Mode</h3>
+              <p i18n="activities-running-content">
+                Instead of playing alone, users can participate in weekly team up competetion mode and compete in pairs to win attractive rewards in DogeStep. It is similar to the weekly and monthly contest model To identify teams, the user will have to equip Team Bracelets.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!---COL -->
+    </div>
+    <!---ROW -->
+  </div>
+  <!---CONTAINER -->
+</section>
+<!-- END ACTIVITEIS -->
+
+<section class="about-section">
+  <div class="row">
+    <div class="col-lg-6 offset-3">
+      <div class="about-content"><div class="tit-section">Make Your Doge
+          Steps Count</div>
+        <p class="txt-base">
+          DogeStep is a Web3 lifestyle app with Game-Fi and Social-Fi
+          functionality intergrated in. Users are been paid to build healthy
+          habits with the virtual doge
+        </p></div>
+      <div class="about-line"><img
+          src="/_nuxt/img/img_line.c8408ab.png"
+          alt=""
+        />
+      </div>
+    </div>
+
+
+  </div>
+</section>
