@@ -833,7 +833,7 @@ textarea {
 }
 .atf-banner-img-one .atf-banner-img-inner {
   width: 100%;
-  margin-left: -160px;
+  margin-left: -63px;
 }
 .atf-banner-img-one .atf-banner-img-inner img {
   max-width: unset;
@@ -2685,7 +2685,9 @@ textarea {
   position: relative;
   border: 2px solid #cdcdcf;
   border-radius: 12px;
-  width: 18rem;
+  width: 21rem;
+  font-size: 24px;
+  font-weight: 700;
 }
 
 .btn-regular {
@@ -2707,4 +2709,12 @@ textarea {
   margin-top: -50px !important;
   margin-left: 25%;
   margin-bottom: 20px;
+}
+
+.swiper-slide {
+  border-radius: 5px;
+}
+
+.atf-service-image {
+  margin-top: 60px;
 }
