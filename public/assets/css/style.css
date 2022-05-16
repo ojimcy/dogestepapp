@@ -539,6 +539,11 @@ textarea {
   font-family: var(--thm-font);
   text-transform: uppercase;
 }
+
+.navbar-brand img {
+  height: 61px;
+  width: 219px;
+}
 .navbar-navs.navbar-expend .menu-nav:hover {
   color: var(--thm-base);
 }
@@ -1470,6 +1475,7 @@ textarea {
   background-clip: padding-box;
   -webkit-animation: waves 3s ease-in-out infinite;
   animation: waves 3s ease-in-out infinite;
+  
 }
 .atf_home_img .iq-waves .wave-1 {
   -webkit-animation-delay: 0s;
@@ -1531,6 +1537,10 @@ textarea {
 */
 .screenshot .swiper-slide {
   width: 300px;
+}
+
+.screenshot .swiper-slide img {
+  height: 364px;
 }
 
 /*
