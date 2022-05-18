@@ -1475,7 +1475,6 @@ textarea {
   background-clip: padding-box;
   -webkit-animation: waves 3s ease-in-out infinite;
   animation: waves 3s ease-in-out infinite;
-  
 }
 .atf_home_img .iq-waves .wave-1 {
   -webkit-animation-delay: 0s;
@@ -2727,4 +2726,21 @@ textarea {
 
 .atf-service-image {
   margin-top: 60px;
+}
+
+.airdrop_btn {
+  font-family: "Roboto", Sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 1px;
+  fill: #ffffff;
+  color: #ffffff;
+  background-color: #184b92;
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-color: #019be3;
+  border-radius: 10px 10px 10px 10px;
+  padding: 20px 60px 20px 60px;
+  margin-top: 20px !important;
 }
