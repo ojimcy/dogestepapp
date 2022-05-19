@@ -316,6 +316,23 @@
     </div>
     <!-- PAGE WRAPPER END-->
 
+    <script>
+        function myFunction() {
+        /* Get the text field */
+        var copyText = document.getElementById("myInput");
+
+        /* Select the text field */
+        copyText.select();
+        copyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+        /* Copy the text inside the text field */
+        navigator.clipboard.writeText(copyText.value);
+        
+        /* Alert the copied text */
+        alert("Copied: " + copyText.value);
+        }
+    </script>
+
     <!-- Latest jQuery -->
     <script src="/assets/js/jquery-1.12.4.min.js"></script>
     <!-- Latest compiled and minified Bootstrap -->
