@@ -22,7 +22,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/marketplace', (req, res) => {
-    res.render("marketplace")
+    res.render("marketplace", {layout: 'dashboard'})
 })
 
 
