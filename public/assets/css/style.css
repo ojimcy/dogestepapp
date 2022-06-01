@@ -2758,3 +2758,7 @@ textarea {
   font-weight: 900;
   cursor: copy;
 }
+
+.main-top {
+  margin-top: 10rem !important;
+}
