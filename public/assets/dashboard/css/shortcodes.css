@@ -3143,6 +3143,7 @@ section.today-picks {
 
 .sc-card-product.explode.style2 .card-media {
     margin-bottom: 21px;
+    max-height: 250px;
 }
 
 .sc-card-product.explode.style2 .card-title {
