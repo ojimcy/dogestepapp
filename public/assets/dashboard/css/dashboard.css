@@ -1407,7 +1407,7 @@ a:focus {
 
 /* Header
 -------------------------------------------------------------- */
-/* .dark .logo_header{
+.dark .logo_header{
     width: 135px !important;
     height: 56px !important;
 }
@@ -1416,11 +1416,17 @@ header{
 }
 
 .header_1 {
-    position: absolute;
-    z-index: 100;
-    height: 80px;
+    height: 100px;
     width: 100%;
+    margin-bottom: 35px;
     border-bottom: 1px solid rgba(235, 235, 235, 0.2);
+    position  : fixed;
+    left      : 0;
+    box-shadow: 1px 1px 5px 0px rgb(0 0 0 / 30%);
+    z-index   : 9999;
+    background: linear-gradient(
+        227.3deg, #322c65 0%, #53cb32 100.84%);
+    /* opacity: 0; */
     -webkit-transition: all 0.5s ease;
     -moz-transition   : all 0.5s ease;
     -ms-transition    : all 0.5s ease;
@@ -1435,7 +1441,7 @@ header{
 .header_1.header_2.style2{
     height: 104px;
     border: none;
-} */
+} 
 .admin_active {
     display: none;
 }
@@ -1444,7 +1450,7 @@ header{
     display: block;
 }
 
-/* .header_1 #main-nav {
+ .header_1 #main-nav {
     position: absolute;
     left:26%;
     top: 50%;
@@ -1534,8 +1540,8 @@ header{
     transform: translateY(-1rem);
     font-size: 16px;
     width: 311px;
-    /* display: none; */
-/* }
+   display: none; 
+}
 .header_1 .header_avatar .avatar_popup h4 {
     color: #fff;
 }
@@ -1544,9 +1550,9 @@ header{
     opacity: 1;
     -webkit-transform: translateY(0);
     transform: translateY(0);
-} */
+}
 
-/* .header_1 .header_avatar .avatar_popup p {
+.header_1 .header_avatar .avatar_popup p {
     font-size: 14px;
     line-height: 22px;
     color: #EBEBEB;
@@ -1563,9 +1569,8 @@ header{
     width: 100%;
     height: 1px;
     background-color: #3C3C56;
-} */
-
-/* .header_1 .header_avatar .avatar_popup .links {
+} 
+.header_1 .header_avatar .avatar_popup .links {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2290,7 +2295,7 @@ header{
     box-shadow: 1px 1px 5px 0px rgb(0 0 0 / 30%);
     z-index   : 9999;
     background: linear-gradient(
-        227.3deg, #8A208C 0%, #181B81 100.84%);
+        227.3deg, #322c65 0%, #53cb32 100.84%);
     border: none;
     opacity: 0;
     -webkit-transition: all 0.5s ease;
