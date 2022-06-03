@@ -8,18 +8,53 @@
   <head>
     <!-- Basic Page Needs -->
     <meta charset="utf-8" />
-    <!--[if IE
-      ]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"
-    /><![endif]-->
-    <title>Axies | NFT Marketplace HTML Template</title>
-
-    <meta name="author" content="themesflat.com" />
 
     <!-- Mobile Specific Metas -->
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, maximum-scale=1"
     />
+    
+     <!-- Primary Meta Tags -->
+    <title>Dogestep.app - Web3 Fitness Mobile Application</title>
+    <meta name="title" content="Dogestep.app - Web3 Fitness Mobile Application" />
+    <meta
+      name="description"
+      content="The first move-to-earn app with virtual doge. Earn while building a healthy habit with your virtual doge"
+    />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="index.html" />
+    <meta
+      property="og:title"
+      content="Dogestep.app - Web3 Fitness Mobile Application"
+    />
+    <meta
+      property="og:description"
+      content="The first move-to-earn app with virtual doge. Earn while building a healthy habit with your virtual doge"
+    />
+    {{!-- todo: change preview image --}}
+    {{!-- <meta property="og:image" content="/assets/img/preview.png" /> --}}
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="index.html" />
+    <meta
+      property="twitter:title"
+      content="Dogestep.app - Web3 Fitness Mobile Application"
+    />
+    <meta
+      property="twitter:description"
+      content="The first move-to-earn app with virtual doge. Earn while building a healthy habit with your virtual doge"
+    />
+
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="/assets/css/responsive.css" />
+
 
     <!-- Theme Style -->
     <link rel="stylesheet" type="text/css" href="/assets/dashboard/css/dashboard.css" />
@@ -29,7 +64,7 @@
     <link rel="apple-touch-icon-precomposed" href="/favicon/favicon.png" />
   </head>
 
-  <body class="body header-fixed is_dark">
+  <body class="body header-fixed">
     <!-- preloade -->
     <div class="preload preload-container">
       <div class="preload-logo"></div>
@@ -522,118 +557,124 @@
 
        {{{body}}}
 
-        <!-- Footer -->
-        <footer id="footer" class="clearfix style3">
-          <div class="themesflat-container">
-            <div class="row">
-              <div class="col-lg-3 col-md-12 col-12">
-                <div class="widget widget-logo">
-                  <div class="logo-footer" id="logo-footer">
-                    <a href="/">
-                      <img
-                        id="logo_footer"
-                        src="/assets/dashboard/images/logo/logo_dark.png"
-                        alt="nft-gaming"
-                        width="135"
-                        height="56"
-                        data-retina="/assets/dashboard/images/logo/logo_dark@2x.png"
-                        data-width="135"
-                        data-height="56"
-                      />
+        
+      <footer class="atf-footer-area">
+       
+        <div class="atf-section-padding pb-0">
+          <div class="container">
+            <div class="row atf-mailchamp-border clearfix">
+              <div
+                class="col-lg-6 col-md-8 col-12 offset-lg-3 offset-md-2 atf-mailchamp-headding atf-mailchamp-subscribe"
+              >
+                {{!-- <h2 class="mb-3 text-center">Subcribe to Newletter Now</h2>
+                <form class="form-group" id="mc-form">
+                  <input
+                    type="email"
+                    name="email"
+                    class="form-control"
+                    id="email"
+                    placeholder="Your Email"
+                    required="required"
+                  />
+                  <button
+                    type="submit"
+                    id="subscribe-button"
+                    class="btn atf-themes-btn"
+                  >
+                    <i class="fab fa-telegram-plane"></i>
+                  </button>
+                  <!-- SUBSCRIPTION SUCCESSFUL OR ERROR MESSAGES -->
+                  <br />
+                  <label class="atf-subscription-label" for="email"></label>
+                </form> --}}
+              </div>
+              <!--- END COL -->
+            </div>
+            <!--- END COL -->
+
+            <div class="atf-footer-top mt-5">
+              <div class="row">
+                <div class="col-lg-4 col-md-6 col-12 ">
+                    <h5><a class="navbar-brand" href="/"> <img src="/assets/img/logoWhite.png"  alt="Logo"/> </a></h5>
+                    <p i18n="home-content" style="color: #fff">
+                      World's First Move-To-Earn App With Virtual Doge
+                      <br> Exercise, Socialize, Play and Earn
+                    </p>
+                </div>
+                <!--- END COL -->
+
+                <!-- <div class="col-lg-2 col-md-6 col-12 atf-footer-link">
+                  <h5>Quick Links</h5>
+                  <ul class="atf-list-menu">
+                    <li>
+                      <a href="#"
+                        ><i class="fa fa-angle-right mr-2"></i>Get Stared</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><i class="fa fa-angle-right mr-2"></i>Our Team</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><i class="fa fa-angle-right mr-2"></i>About Us</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><i class="fa fa-angle-right mr-2"></i>Need Helps</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><i class="fa fa-angle-right mr-2"></i>Contact Us</a
+                      >
+                    </li>
+                  </ul>
+                </div> -->
+                <!--- END COL -->
+
+                <div class="col-lg-4 col-md-6 col-12 atf-footer-link">
+                  <h5>Follow Us</h5>
+                  <div class="atf-footer-social-icon mt-1">
+                    <a
+                      href="https://twitter.com/DogeStepApp"
+                      class="icon"
+                      target="_blank"
+                    >
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                    <a
+                      href="https://t.me/dogestepapp"
+                      class="icon"
+                      target="_blank"
+                    >
+                      <i class="fab fa-telegram"></i>
                     </a>
                   </div>
-                  <p class="sub-widget-logo">
-                    Lorem ipsum dolor sit amet,consectetur adipisicing elit.
-                    Quis non, fugit totam vel laboriosam vitae.
-                  </p>
                 </div>
+                <!--- END COL -->
               </div>
-              <div class="col-lg-2 col-md-4 col-sm-5 col-5">
-                <div class="widget widget-menu style-1">
-                  <h5 class="title-widget">My Account</h5>
-                  <ul>
-                    <li><a href="author01.html">Authors</a></li>
-                    <li><a href="connect-wallet.html">Collection</a></li>
-                    <li><a href="profile.html">Author Profile</a></li>
-                    <li><a href="create-item.html">Create Item</a></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="col-lg-2 col-md-4 col-sm-7 col-7">
-                <div class="widget widget-menu style-2">
-                  <h5 class="title-widget">Resources</h5>
-                  <ul>
-                    <li><a href="help-center.html">Help & Support</a></li>
-                    <li><a href="auctions.html">Live Auctions</a></li>
-                    <li><a href="item-details.html">Item Details</a></li>
-                    <li><a href="activity1.html">Activity</a></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="col-lg-2 col-md-4 col-sm-5 col-5">
-                <div class="widget widget-menu fl-st-3">
-                  <h5 class="title-widget">Company</h5>
-                  <ul>
-                    <li><a href="explore-1.html">Explore</a></li>
-                    <li><a href="contact1.html">Contact Us</a></li>
-                    <li><a href="blog.html">Our Blog</a></li>
-                    <li><a href="faq.html">FAQ</a></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="col-lg-3 col-md-6 col-sm-7 col-12">
-                <div class="widget widget-subcribe">
-                  <h5 class="title-widget">Subscribe Us</h5>
-                  <div class="form-subcribe">
-                    <form
-                      id="subscribe-form"
-                      action="#"
-                      method="GET"
-                      accept-charset="utf-8"
-                      class="form-submit"
-                    >
-                      <input
-                        name="email"
-                        value=""
-                        class="email"
-                        type="email"
-                        placeholder="info@yourgmail.com"
-                        required
-                      />
-                      <button id="submit" name="submit" type="submit">
-                        <i class="icon-fl-send"></i>
-                      </button>
-                    </form>
-                  </div>
-                  <div class="widget-social style-1 mg-t32">
-                    <ul>
-                      <li>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                      </li>
-                      <li>
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                      </li>
-
-                      <li class="style-2">
-                        <a href="#"><i class="fab fa-telegram-plane"></i></a>
-                      </li>
-                      <li>
-                        <a href="#"><i class="fab fa-youtube"></i></a>
-                      </li>
-                      <li class="mgr-none">
-                        <a href="#"><i class="icon-fl-tik-tok-2"></i></a>
-                      </li>
-                      <li class="mgr-none">
-                        <a href="#"><i class="icon-fl-vt"></i></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
+              <!--- END ROW -->
             </div>
+            <!--- END SINGLE FOOTER -->
           </div>
-        </footer>
-        <!-- /#footer -->
+          <!--- END CONTAINER -->
+
+          <div class="atf-footer-boottom text-center mt-4">
+            <div class="row">
+              <div class="col-md-12">
+                <p>&copy;Copyright 2022 - All Right Reserved</p>
+              </div>
+              <!--- END COL -->
+            </div>
+            <!--- END ROW -->
+          </div>
+          <!-- FOOTER SECTION END-->
+        </div>
+        <!--- END OVERLAY -->
+      </footer>
       </div>
 
       <!-- /#page -->

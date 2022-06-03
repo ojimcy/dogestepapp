@@ -25,6 +25,9 @@ app.get('/marketplace', (req, res) => {
     res.render("marketplace", {layout: 'marketplace'})
 })
 
+app.get('/marketplace/items-details', (req, res) => {
+    res.render("items-details", {layout: 'marketplace'})
+})
 
 const PORT = process.env.PORT || 3000
 

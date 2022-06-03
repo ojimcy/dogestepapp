@@ -2543,7 +2543,7 @@ textarea {
   right: 0px;
 }
 
-.avatar {
+/* .avatar {
   align-items: center;
   background-image: linear-gradient(
     45deg,
@@ -2582,7 +2582,7 @@ textarea {
 
 .avatar {
   margin: auto;
-}
+} */
 
 .kol-name,
 .kol-followers {

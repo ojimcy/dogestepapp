@@ -1407,7 +1407,7 @@ a:focus {
 
 /* Header
 -------------------------------------------------------------- */
-.dark .logo_header{
+/* .dark .logo_header{
     width: 135px !important;
     height: 56px !important;
 }
@@ -1435,7 +1435,7 @@ header{
 .header_1.header_2.style2{
     height: 104px;
     border: none;
-}
+} */
 .admin_active {
     display: none;
 }
@@ -1444,7 +1444,7 @@ header{
     display: block;
 }
 
-.header_1 #main-nav {
+/* .header_1 #main-nav {
     position: absolute;
     left:26%;
     top: 50%;
@@ -1535,7 +1535,7 @@ header{
     font-size: 16px;
     width: 311px;
     /* display: none; */
-}
+/* }
 .header_1 .header_avatar .avatar_popup h4 {
     color: #fff;
 }
@@ -1544,9 +1544,9 @@ header{
     opacity: 1;
     -webkit-transform: translateY(0);
     transform: translateY(0);
-}
+} */
 
-.header_1 .header_avatar .avatar_popup p {
+/* .header_1 .header_avatar .avatar_popup p {
     font-size: 14px;
     line-height: 22px;
     color: #EBEBEB;
@@ -1563,9 +1563,9 @@ header{
     width: 100%;
     height: 1px;
     background-color: #3C3C56;
-}
+} */
 
-.header_1 .header_avatar .avatar_popup .links {
+/* .header_1 .header_avatar .avatar_popup .links {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1609,7 +1609,7 @@ header{
   .header_1 .header_avatar .avatar_popup .links a i {
     margin-right: 10px;
     font-size: 16px;
-}
+} */ 
   .space-y-20 > :not([hidden]) ~ :not([hidden]) {
     --cb-space-y-reverse: 0;
     margin-top: calc(20px * calc(1 - var(--cb-space-y-reverse)));
