@@ -22,10 +22,13 @@ app.get('/', (req, res) => {
 })
 
 app.get('/marketplace', (req, res) => {
-    res.render("marketplace", {layout: 'dashboard'})
+    res.render("marketplace", {layout: 'marketplace'})
 })
 
+app.get('/marketplace/items-details', (req, res) => {
+    res.render("items-details", {layout: 'marketplace'})
+})
 
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 3100
 
 app.listen(PORT, console.log(`Server started on ${PORT}`))
