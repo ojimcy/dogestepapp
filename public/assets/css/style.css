@@ -2543,7 +2543,8 @@ textarea {
   right: 0px;
 }
 
-/* .avatar {
+.avatar {
+  margin: auto;
   align-items: center;
   background-image: linear-gradient(
     45deg,
@@ -2554,7 +2555,7 @@ textarea {
     #d92d7a 70%,
     #cc2a92 80%,
     #c32e92 95%
-  );
+  ) !important;
   box-sizing: border-box;
   display: flex;
   height: var(--size-avatar);
@@ -2565,11 +2566,11 @@ textarea {
 }
 .avatar,
 .avatar > img {
-  border: var(--size-border) solid var(--color-background, white);
+  border: var(--size-border) solid var(--color-background, rgb(15, 83, 23));
   border-radius: 50%;
 }
 .avatar > img {
-  border-width: calc(0.5 * var(--size-border));
+  border: none;
   height: auto;
   margin: 0;
   transform: scale(1.1);
@@ -2580,9 +2581,7 @@ textarea {
   transform: scale(1);
 }
 
-.avatar {
-  margin: auto;
-} */
+
 
 .kol-name,
 .kol-followers {
@@ -2595,6 +2594,7 @@ textarea {
 
 .kol-followers {
   font-size: 16px;
+  margin-top: 5px;
 }
 
 .avatar-twitter {
@@ -2850,4 +2850,23 @@ textarea {
   padding: 0 !important;
   max-width: 100%;
   text-align: left !important;
+}
+
+.team-social-icon a i:hover {
+  background: var(--thm-color);
+  transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+}
+
+.team-social-icon a i {
+  font-size: 17px;
+  width: 27px;
+  height: 27px;
+  line-height: 27px;
+  border-radius: 20px;
+  color: var(--thm-white);
+  background: #ff8a00;
+  text-align: center;
+  background: var(--thm-base);
+  margin-top: 5px;
 }
