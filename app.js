@@ -29,6 +29,11 @@ app.get('/marketplace/items-details', (req, res) => {
     res.render("items-details", {layout: 'marketplace'})
 })
 
+
+app.get('/airdrop', (req, res) => {
+    res.render("airdrop")
+})
+
 const PORT = process.env.PORT || 5050
 
 app.listen(PORT, console.log(`Server started on ${PORT}`))
