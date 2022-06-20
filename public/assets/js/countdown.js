@@ -6,7 +6,7 @@
     hour = minute * 60,
     day = hour * 24;
 
-  let marketplace = "June 17, 2022 20:00:00",
+  let marketplace = "June 30, 2022 20:00:00",
     countDown = new Date(marketplace).getTime(),
     x = setInterval(function () {
 
